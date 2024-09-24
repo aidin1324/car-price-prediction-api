@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "car-price-prediction-project"
+version = "0.1.0"
+description = "car price prediction task, web-scraping from local Kg site and then analyze, provide EDA and best model"
+authors = ["Aidin <aidinror@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
